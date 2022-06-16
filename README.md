@@ -5,5 +5,3 @@
 
 
 <img src="./Demo.png">
-<img src="https://raw.githubusercontent.com/mrbridge-dev/guess-the-weather/main/Demo.png">
-![alt text](https://github.com/mrbridge-dev/
