@@ -3,4 +3,4 @@
 * Enter name of a city or country..
 * get detailed weather information for that city 
 
-<img scr="./Demo.png">
+<img scr="https://github.com/mrbridge-dev/guess-the-weather/blob/main/Demo.png">
