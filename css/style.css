@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: #007155;
+    min-height: 700px;
+}
+
+.container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    min-height: 700px;
+    color: rgb(241, 241, 241);
+    text-align: center;
+}
+
+.farmer {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+#gif-farmer {
+    border-radius: 50%;
+    width: 65%;
+    margin: auto;
+}
+
+.dash {
+    width: 50%;
+    margin: auto;
+}
+
+.dashboard {
+    margin: auto;
+    width: 60%;
+}
+
+#city {
+    border-radius: 6px;
+    border: 0px;
+    outline: none;
+    height: 27px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#btn {
+    background-color: rgb(141 187 255);
+    border: 0;
+    width: 90px;
+    height: 27px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+#btn:hover {
+    background-color: rgb(14, 110, 255);
+    /* width: 85px; */
+    height: 25px;
+    box-shadow: 0px 3px rgb(109, 108, 108);
+}
+
+.temp {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border-radius: 12px;
+    height: 155px;
+    color: black;
+}
+
+.location {
+    text-align: center;
+}
+
+#form {
+    text-align: center;
+}
+
+.degrees {
+    width: 70%;
+    padding-left: 10%;
+    text-align: left;
+    margin: auto;
+    line-height: 22px;
+}
+
+.degrees h1 {
+    font-size: 500%;
+}
+
+.pict-temp {
+    width: 30%;
+    padding-right: 10%;
+    text-align: center;
+    margin: auto;
+    line-height: 25px;
+}
+
+.pict-temp img {
+    /* margin-bottom: 25%; */
+    margin-top: 30%;
+    width: 70px;
+}
+
+.details {
+    padding: 0 5%;
+}
+
+#weda {
+    line-height: 12px;
+}
+
+.temp-item {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+.det-item {
+    width: 70%;
+    text-align: left;
+}
+
+.det-value {
+    width: 30%;
+}
+
+.icons {
+    width: 100%;
+    background-color: white;
+    border-radius: 50px;
+    height: 55px;
+}
+
+.location {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.temp, .details, .icons {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 sup {
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.icons img, .location img {
+    /* width: 20px; */
+    margin: auto;
+}
+
+.location img {
+    width: 10px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        min-height: 1200px;
+    }
+
+    .container {        
+        flex-direction: column-reverse;
+        min-height: 1000px;
+        width: auto;
+    }
+
+    .dash {
+        width: 80%;
+        margin-top: 0px;
+    }
+
+    .farmer {
+        margin-bottom: 0px;
+    }
+}
